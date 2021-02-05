@@ -1370,6 +1370,13 @@ input[type="number"]::-webkit-outer-spin-button {
   .accordion-sec .tab-slider .swiper-slide:nth-child(odd) {
     background: transparent;
   }
+  .social-links{
+  flex-direction:row;
+  }
+  .social-links a{
+        flex-basis: 5%;
+  }
+
 }
 @media (max-width: 767px) {
   br {
