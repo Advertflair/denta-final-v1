@@ -1087,6 +1087,13 @@ td.ui-datepicker-week-end {
   color: #1f2734;
   border: 1px solid #1f2734;
 }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
 /* Responsive */
 /* Ipad Landscape */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1299,6 +1306,7 @@ td.ui-datepicker-week-end {
   footer .col * {
     color: #fff;
   }
+
   /* .review-slider .swiper-button-next,
   .review-slider .swiper-button-prev {
     display: none;
